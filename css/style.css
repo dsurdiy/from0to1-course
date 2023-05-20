@@ -1,43 +1,5 @@
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
-}
-
-body {
-  font-size: 20px;
-}
-
-.wrapper {
-  width: 1000px;
-  margin: 0 auto;
-}
-
-.title {
-  margin-bottom: 25px;
-  text-align: center;
-}
-
-.subtitle {
-  font-size: 24px;
-}
-
-.main-title {
-  font-size: 35px;
-  padding-top: 25px;
-}
-
-.text {
-  margin-bottom: 15px;
-}
-
-.list {
-  padding-left: 50px;
-  margin-bottom: 30px;
-}
-
-.image {
-  display: block;
-  margin: 0 auto;
-  width: 700px;
-  height: 400px;
-  margin-bottom: 20px;
 }
