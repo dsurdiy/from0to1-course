@@ -285,3 +285,26 @@ body {
 .expertise__item-text {
   color: #777777;
 }
+
+.magic {
+  background-color: #F6F8FA;
+  padding: 100px 0 180px;
+  background-image: url("../images/magic-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  /* background-position: bottom left; */
+  background-position: left 82%;
+}
+
+.magic__inner {
+  max-width: 470px;
+  margin-left: auto;
+}
+
+.magic__title {
+  margin-bottom: 67px;
+}
+
+.magic__text p {
+  margin-bottom: 25px;
+}
