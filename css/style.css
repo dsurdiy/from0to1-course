@@ -307,3 +307,144 @@ body {
 .magic__text p {
   margin-bottom: 25px;
 }
+
+
+.portfolio {
+  padding: 140px 0 200px;
+}
+
+.portfolio__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.portfolio__filter-btn {
+  margin-right: 55px;
+}
+
+.portfolio__btn {
+  background-color: transparent;
+  border: none;
+  padding: 0 4px 5px;
+  margin-right: 17px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  color: #333333;
+}
+
+.mixitup-control-active {
+  border-bottom: 1px solid #FCBB08;
+}
+
+.portfolio__content {
+  column-count: 4;
+  column-gap: 22px;
+  margin-bottom: 70px;
+}
+
+.portfolio__item {
+  position: relative;
+  margin-bottom: 22px;
+}
+
+.portfolio__item img {
+  width: 100%;
+}
+
+.portfolio__item-link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2D2A2A;
+  border: 12px solid #4C4949;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 1.4px;
+  color: #FFFFFF;
+  opacity: 0;
+  transition: all .3s;
+}
+
+.portfolio__item:hover .portfolio__item-link {
+  opacity: 1;
+}
+
+.portfolio__more {
+  display: block;
+  padding: 42px 15px 41px;
+  background-color: #F6F8FA;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 1.2px;
+  color: #242121;
+  margin-bottom: 130px;
+}
+
+.blockquote {
+  max-width: 650px;
+  margin: 0 auto; 
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 36px;
+  color: #242121;
+  margin-bottom: 150px;
+}
+
+.blockquote__author {
+  display: block;
+  padding-top: 50px;
+  font-size: 14px;
+  line-height: 32px;
+  color: #9E9E9E;
+}
+
+.portfolio__video {
+  height: 324px;
+  background-image: url("../images/video-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 160px;
+}
+
+.portfolio__statistics {
+  display: flex;
+  justify-content: space-around;
+}
+
+.portfolio__statistics-item {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 73px;
+  color: #242121;
+}
+
+.portfolio__statistics-item span {
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #333333;
+}
