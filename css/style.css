@@ -603,3 +603,12 @@ ul.price__item {
 }
 
 
+.partners {
+  padding: 70px 0 95px;
+}
+
+.partners__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
