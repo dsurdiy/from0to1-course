@@ -762,13 +762,15 @@ ul.footer__social-list {
   }
   .about,
   .portfolio,
-  .slider-blog {
+  .slider-blog,
+  .team {
     padding: 100px 0;
   }
   .about__inner {
     display: block;
   }
-  .about__title {
+  .about__title,
+  .team__title {
     margin-bottom: 50px;
   }
   .about__text p {
@@ -789,6 +791,9 @@ ul.footer__social-list {
   }
   .slick-slider {
     padding-top: 100px;
+  }
+  .team__list {
+    column-gap: 20px;
   }
 }
 
@@ -895,7 +900,8 @@ ul.footer__social-list {
   }
   .about,
   .portfolio,
-  .slider-blog {
+  .slider-blog,
+  .team {
     padding: 70px 0;
   }
   .expertise {
@@ -951,6 +957,9 @@ ul.footer__social-list {
   ul.slick-dots {
     margin-top: 100px;
   }
+  .team__item-title {
+    padding: 20px 0 10px;
+  }
 }
 
 
@@ -968,7 +977,16 @@ ul.footer__social-list {
   .blog__item-title {
     font-size: 22px;
     line-height: 30px;
-  } 
+  }
+  .team__list {
+    display: block;
+  }
+  .team__item + .team__item {
+    margin-top: 30px;
+  }
+  .team__item img {
+    margin: 0 auto;
+  }
 }
 
 
@@ -985,7 +1003,8 @@ ul.footer__social-list {
   .expertise,
   .magic,
   .portfolio,
-  .slider-blog {
+  .slider-blog,
+  .team {
     padding: 40px 0;
   }
   .expertise__item {
