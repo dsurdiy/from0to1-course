@@ -625,8 +625,8 @@ ul.price__item {
   padding: 145px 0 160px;
   background-image: url("../images/map.jpg");
   background-repeat: no-repeat;
-  background-size: 50%;
-  background-position: right;
+  background-size: 40%;
+  background-position: right 65%;
 }
 
 .connect__title {
@@ -764,7 +764,8 @@ ul.footer__social-list {
   .portfolio,
   .slider-blog,
   .team,
-  .price {
+  .price,
+  .connect {
     padding: 100px 0;
   }
   .about__inner {
@@ -772,7 +773,8 @@ ul.footer__social-list {
   }
   .about__title,
   .team__title,
-  .price__title {
+  .price__title,
+  .connect__title {
     margin-bottom: 50px;
   }
   .about__text p {
@@ -838,6 +840,26 @@ ul.footer__social-list {
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
+  }
+  .connect {
+    background-image: none;
+  }
+  .form {
+    max-width: 100%;
+  }
+  .footer__content {
+    padding-top: 75px;
+  }
+  .footer__logo {
+    margin-bottom: 40px;
+  }
+  ul.footer__social-list {
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+  }
+  .footer__social-item {
+    width: 33.33%;
+    margin-bottom: 25px;
   }
 }
 
@@ -913,7 +935,8 @@ ul.footer__social-list {
   .slider-blog,
   .team,
   .price,
-  .partners {
+  .partners,
+  .connect {
     padding: 70px 0;
   }
   .expertise {
@@ -1035,7 +1058,8 @@ ul.footer__social-list {
   .slider-blog,
   .team,
   .price,
-  .partners {
+  .partners,
+  .connect {
     padding: 40px 0;
   }
   .expertise__item {
@@ -1053,5 +1077,8 @@ ul.footer__social-list {
   }
   ul.price__item {
     width: 100%;
+  }
+  .footer__social-item {
+    width: 50%;
   }
 }
