@@ -18,9 +18,11 @@
   "homepage": "https://github.com/dsurdiy/from0to1-course#readme",
   "devDependencies": {
     "browser-sync": "^2.29.3",
+    "del": "^6.1.1",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
     "gulp-sass": "^5.1.0",
     "gulp-uglify": "^3.0.2",
     "jquery": "^3.7.0",
